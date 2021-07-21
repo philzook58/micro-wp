@@ -1,0 +1,6 @@
+( executable
+  (name main)
+  (libraries bap z3)
+    (flags -linkall)
+  (preprocess (pps ppx_jane))
+)
